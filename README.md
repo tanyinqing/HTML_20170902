@@ -2,4 +2,4 @@
 
 <img src="../img/form.jpg" title="CSS3" >
 <br>
-![ceshi](../img/index.jpg)
+![ceshi](https://github.com/tanyinqing/HTML_20170902/blob/master/img/index.jpg)
