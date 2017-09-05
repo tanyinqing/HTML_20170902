@@ -6,31 +6,34 @@
 </head>
 <body>
 <form action="http://bing.com/">
-    <input type="text" placeholder="username" value="tester" disabled="disabled"><br>
+
+    input:text
+    <input type="text" placeholder="username" value="tester" disabled="disabled"><br>  <!--disabled不可以点击-->
     <input type="password" placeholder="password"><br>
-    <input type="radio" name="gender" checked="checked"> Male
+    <input type="radio" name="gender" checked="checked"> Male  <!--单选-->
     <input type="radio" name="gender"> Female
     <br>
-    <input type="checkbox" name="hobbies" checked="checked">Reading
+    <input type="checkbox" name="hobbies" checked="checked">Reading   <!--多选-->
     <input type="checkbox" name="hobbies">TV
     <input type="checkbox" name="hobbies">Movie
     <input type="checkbox" name="hobbies">Game
     <br>
-    <input type="week"><br>
+    <input type="week"><br>   <!--星期-->
+    <input type="date"><br>   <!--日期 h5 新加的  部分浏览器不支持-->
     <select name="city" multiple="multiple">
         <option value="Beijing">Beijing</option>
         <option value="Shanghai">Shanghai</option>
-        <option value="Shenzhen" selected="selected">Shenzhen</option>
+        <option value="Shenzhen" selected="selected">Shenzhen</option>  <!--默认选中-->
     </select>
     <br>
     <textarea name=""cols="30" rows="5"></textarea>
     <br>
     <input type="button" value="TEST"><br>
-    <input type="file" name=""><br>
+    <input type="file" name=""><br>  <!--上传文件-->
     <input type="hidden" name="test-key" value="test-value">
     <button>BUTTON</button>
-    <input type="submit" value="Sign up">
-    <input type="reset" value="RESET">
+    <input type="submit" value="Sign up">  <!--提交-->
+    <input type="reset" value="RESET"> <!--表单重置-->
 </form>
 </body>
 </html>
