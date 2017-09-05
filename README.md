@@ -1,4 +1,5 @@
-常用元素实现的效果<br>
+<h1 style="color:#f00;">常用元素实现的效果</h1> <br>
+
 <img src="img/index.jpg" title="CSS3"><br>
 表单实现的图片<br>
 <img src="img/form.jpg" title="CSS3"><br>
